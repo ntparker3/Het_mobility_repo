@@ -1,0 +1,38 @@
+##############
+##############
+###### Zambia/US heterogeneity in travel analysis
+###### Updated 8/12
+##############
+##############
+
+###### Instructions for running code
+
+### first, load required packages
+library(dplyr)
+library(tidyverse)
+library(fitdistrplus)
+library(pROC)
+library(data.table)
+library(ggplot2)
+library(transport)
+library(philentropy)
+library(mobility)
+library(tidyr)
+library(reticulate)
+library(purrr)
+library(arrow)
+library(data.table)
+library(mobility)
+
+##### load required objects
+
+
+###########
+##### Steps
+###########
+
+## 1. source function.R to load in functions
+## 2. run all code in Zambia_travel_prediction_model.R
+  ## need to have object mta_s2_clean (this is Zambia travel frequency data from May 2023 to April 2024)
+## 3. run through code in Zambia_het_clean.R
+
