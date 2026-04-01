@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=actual_flu
+#SBATCH --mem=180G
+#SBATCH --time=100:00:00
+#SBATCH --ntasks=16
+#SBATCH --output=actual_flu
+#SBATCH --nodelist=idmodeling2
+echo "Beginning of script"
+date
+
+
+PYTHON=/home/nparke19/miniconda3/bin/python3
+$PYTHON ~/Zambia/Starsim/Actual/Starsim_actual.py
+
+echo "End of script"
+date
